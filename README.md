@@ -20,7 +20,7 @@ parameter wajib:
 * Contoh kode
 ```
 import requests
-data = {"text:"Mengheker Banget"}
+data = {"text":"Mengheker Banget"}
 result = requests.post("https://salism3api.pythonanywhere.com/write", data = data)
 ```
 * Contoh hasil
@@ -43,7 +43,7 @@ parameter optional:
 * Contoh kode
 ```
 import requests
-data = {"text:"GG Gaming", "outlineColor":"255,0,0,255", "textColor":"0,0,0,255"}
+data = {"text":"GG Gaming", "outlineColor":"255,0,0,255", "textColor":"0,0,0,255"}
 result = requests.post("https://salism3api.pythonanywhere.com/text2img", data = data)
 ```
 * Contoh hasil
