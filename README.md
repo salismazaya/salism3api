@@ -7,6 +7,7 @@ donate: https://saweria.co/salismazaya
 * [Text ke gambar](#text-ke-gambar)
 * [Text ke suara](#text-ke-suara)
 * [Wikipedia](#wikipedia)
+* [Soal Matematika](#soal-matematika)
 
 ## Nulis
 ```
@@ -88,3 +89,16 @@ result = requests.post("https://salism3api.pythonanywhere.com/wikipedia", data =
 ```
 {"content":"Node.js adalah platform perangkat lunak pada sisi peladen dan aplikasi jaringan. Ditulis dengan bahasa JavaScript dan dijalankan pada Windows, Mac OS X, dan Linux tanpa perubahan kode program. Node.js memiliki pustaka peladen HTTP sendiri sehingga memungkinkan untuk menjalankan peladen web tanpa menggunakan program peladen web seperti Apache atau Lighttpd.\n\n\n== Sejarah ==\n\nNode.js pertama kali diciptakan dan diperkenalkan untuk pengguna pada sistem Linux pada tahun 2009. Node.js dikembangkan oleh Ryan Dahl dan disponsori oleh Joyent, perusahaan tempat ia bekerja.\n\n\n== Kelebihan ==\nBerikut kelebihan-kelebihan dari peladen Node.js:\nDengan bahasa JavaScript, ia mempermudah pembelajaran sisi belakang jika memang sudah menguasai JavaScript; pemula bahkan lebih cepat menguasainya karena dari sisi klien juga menggunakan bahasa JavaScript.\nAdanya pertukaran kode antara klien dan peladen, yaitu server-side rendering pada kerangka JavaScript.\nAdanya fasilitas untuk membuat aplikasi waktu nyata (realtime application).\nBersumber terbuka, sehingga pengguna mengetahui bagaimana proses aplikasi berjalan, mengubahnya, dan gratis dipakai.\n\n\n== Rilis ==\nRilis utama dari Node.js adalah dari repositori resmi Node.js di GitHub pada cabang master. Versi baru bernomor genap dirilis pada bulan April dan versi baru bernomor ganjil pada Oktober.\nPerilisan Node.js dibagi menjadi 3 fase, yaitu:\n\nCurrent (saat ini),\nLong Term Support / LTS (dukungan aktif jangka panjang), dan\nMaintenance (pemeliharaan).Pada setiap perilisan bernomor ganjil tidak akan pernah masuk dalam fase LTS ataupun Maintenance.\n\n\n== Referensi ==\n\n\n== Pranala luar ==\nSitus web resmi\nRepositori Node.js di GitHub","message":"Sukses!","success":true,"title":"Node.js"}
 ```
+
+## Soal Matematika
+```
+method: GET/POST
+url: https://salism3api.pythonanywhere.com/math
+```
+* Contoh kode
+```
+import requests
+result = requests.get("https://salism3api.pythonanywhere.com/math")
+```
+* Contoh hasil
+<img src="Contoh-math.png" width=300 height=300>
