@@ -5,6 +5,7 @@ donate: https://saweria.co/salismazaya
 ## Fitur yang tersedia
 * [Nulis](#nulis)
 * [Text ke gambar](#text-ke-gambar)
+* [Text ke gif](#text-ke-gif)
 * [Text ke suara](#text-ke-suara)
 * [Wikipedia](#wikipedia)
 * [Soal Matematika](#soal-matematika)
@@ -49,6 +50,25 @@ result = requests.post("https://salism3api.pythonanywhere.com/text2img", data = 
 ```
 * Contoh hasil
 <img src="Contoh-text-ke-gambar.png" width=300 height=300>
+
+## Text ke gif
+```
+method: GET/POST
+url: https://salism3api.pythonanywhere.com/text2gif
+
+parameter wajib:
+- text (isi tulisan)
+```
+
+* Contoh kode
+```
+import requests
+data = {"text":"SalisM3"}
+result = requests.post("https://salism3api.pythonanywhere.com/text2gif", data = data)
+```
+
+* Contoh hasil
+<img src="https://user-images.githubusercontent.com/50546233/121356530-2252f100-c95b-11eb-9caf-b06c72c4dca5.gif" width=300 height=300>
 
 ## Text ke suara
 ```
